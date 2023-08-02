@@ -31,10 +31,10 @@ index = {
         model = import:WaitForChild("Emerald_Sword"),
     },
     {
-		name = "rageblade",
-		offset = CFrame.Angles(math.rad(0),math.rad(-90),math.rad(90)),
-		model = import:WaitForChild("Rageblade"),
-	}, 
+	name = "rageblade",
+	offset = CFrame.Angles(math.rad(0),math.rad(-90),math.rad(90)),
+	model = import:WaitForChild("Rageblade"),
+    }, 
 }
 local func = Workspace:WaitForChild("Camera").Viewmodel.ChildAdded:Connect(function(tool)
     if(not tool:IsA("Accessory")) then return end
